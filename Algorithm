@@ -1,0 +1,17 @@
+ALGORITHM FOR CLUSTERING BASED PPDM:
+1.	Start
+2.	Get the input that is hospital data
+3.	Data cleaning should be done before using the data, the data should be free from errors
+4.	Select the platform in which you want to work in, here I used python for coding
+5.	Import all required library files for the functioning of clustering and hiding operations
+6.	Pass the dataset into a variable using pandas library file object
+7.	Now take out k-means functionality from the imported library file that is sklearn.cluster
+8.	Now set a range for the number of clusters to be formed regarding the given dataset
+9.	Pass the dataset variable into the k-means functionality
+10.	Append the resultant data into a new variable1
+11.	Using the plot, title, xlable, ylable, show properties given by matplotlib library file, represent the data in clusters form based on the diagnosis attribute in the given dataset 
+12.	Select the sensitive diagnosis attributes from the dataset
+13.	After selecting the sensitive diagnosis attribute then we need to implement the privacy preserving technique
+14.	By implementing the privacy preserving technique on the appended variable1, the sensitive diagnosis attribute will be hidden & will be used and seen only to the concerned doctor upon some conditions
+15.	Now represent the clusters again, you will be able to see non-sensitive attribute clusters in the plot
+16.	Stop.
